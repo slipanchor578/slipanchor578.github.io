@@ -4,16 +4,16 @@ window.addEventListener("load", async () => {
             const sw = await navigator.serviceWorker.register("sw.js", { scope: "./" });
             document.getElementById("status").innerHTML = "successful";
             let serviceWorker = null;
-            if (registration.installing) {
-                serviceWorker = registration.installing;
+            if (sw.installing) {
+                serviceWorker = sw.installing;
                 printState("installing");
             }
-            else if (registration.waiting) {
-                serviceWorker = registration.waiting;
+            else if (sw.waiting) {
+                serviceWorker = sw.waiting;
                 printState("waiting");
             }
-            else if (registration.active) {
-                serviceWorker = registration.active;
+            else if (sw.active) {
+                serviceWorker = sw.active;
                 printState("active");
             }
             if (serviceWorker) {
