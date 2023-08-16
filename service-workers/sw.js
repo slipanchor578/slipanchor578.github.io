@@ -1,0 +1,3 @@
+alert("Hello SW!");
+export {};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3cuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi9TcmMvc3cudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsS0FBSyxDQUFDLFdBQVcsQ0FBQyxDQUFDIn0=
