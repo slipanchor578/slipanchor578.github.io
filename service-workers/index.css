@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    min-height: 100svh;
+}
+
+h1
+{
+    color: hsl(270, 52%, 49%);
+}
